@@ -3,7 +3,7 @@
 }
 
 :{$PORT:3000} {
-    @inet host inet.example.com
+    @inet host inet.tokyupr.jp
     handle @inet {
         reverse_proxy http://work-main-app.railway.internal:8080
     }
